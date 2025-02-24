@@ -1,4 +1,7 @@
 @import url(fontawesome-all.min.css);
+@import url(academicons.css);
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*
 	Hyperspace by HTML5 UP
@@ -48,10 +51,6 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body {
-	-webkit-text-size-adjust: none;
 }
 
 mark {
@@ -3049,6 +3048,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 50em;
 			-ms-flex: 1;
+			flex: 1;
 		}
 
 			.spotlights > section > .content > .inner {

@@ -49,7 +49,7 @@
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
 				width: #{_size(inner-width) - 25em};
-				-ms-flex: 1;
+				flex: 1;
 
 				> .inner {
 					@include vendor('transform', 'translateX(0) translateY(0)');
